@@ -149,6 +149,11 @@ li {
   list-style-type: none;
 }
 
+.no-highlight {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
 @media only screen and (max-device-width: 736px) {
   .head {
     height: 300px;
