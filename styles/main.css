@@ -64,7 +64,7 @@ header span{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 80%;
+  height: 60%;
   z-index: 10001;
 }
 
@@ -111,6 +111,7 @@ header span{
 section {
   display: flex;
   justify-content: center;
+
 }
 
 #card-container {
@@ -122,6 +123,13 @@ section {
   padding-top: 20px;
   padding-bottom: 30px;
   width: 650px;
+}
+
+.hs-logo {
+  background: url(../assets/hearthstone-logo-border.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .box-shadow {
