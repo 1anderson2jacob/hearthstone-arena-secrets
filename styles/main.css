@@ -129,7 +129,7 @@ section {
   background: url(../assets/hearthstone-logo-border.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 40%;
 }
 
 .box-shadow {
