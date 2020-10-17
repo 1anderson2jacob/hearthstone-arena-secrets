@@ -125,9 +125,12 @@ section {
 }
 
 .box-shadow {
-  -webkit-box-shadow: 10px 10px 50px -10px rgba(76, 238, 130, 0.5);
-  -moz-box-shadow: 10px 10px 50px -10px rgba(76, 238, 130, 0.5);
-  box-shadow: 10px 10px 50px -10px rgba(76, 238, 130, 0.5);
+  -webkit-box-shadow: -5px -5px 50px -10px rgba(212, 100, 226, 1),
+  5px 5px 50px -10px rgba(255, 212, 74, 1);
+  -moz-box-shadow: -5px -5px 50px -10px rgba(212, 100, 226, 1),
+  5px 5px 50px -10px rgba(255, 212, 74, 1);
+  box-shadow: -5px -5px 30px -10px rgba(212, 100, 226, 1),
+  5px 5px 30px -10px rgba(255, 212, 74, 1);
 }
 
 #card-container ul { 
