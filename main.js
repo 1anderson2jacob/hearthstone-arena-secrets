@@ -3,8 +3,8 @@
 const secretsObj = {
   //rotation legal secrets
   hunter: ['explosive-trap', 'freezing-trap', 'misdirection', 'snake-trap', 'snipe', 'pressure-plate', 'pack-tactics'],
-  mage: ['counterspell', 'ice-barrier', 'mirror-entity', 'spellbender', 'vaporize', 'netherwind-portal'],
-  paladin: ['eye-for-an-eye', 'redemption', 'repentance', 'never-surrender!'],
+  mage: ['counterspell', 'ice-barrier', 'mirror-entity', 'spellbender', 'vaporize', 'flame-ward', 'netherwind-portal'],
+  paladin: ['eye-for-an-eye', 'noble-sacrifice', 'redemption', 'repentance', 'never-surrender!'],
   rogue: ['ambush', 'bamboozle', 'dirty-tricks'],
 }
 
