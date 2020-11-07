@@ -81,7 +81,7 @@ header span{
 
 
 .drop-shadow-black{
-  box-shadow: 0px 6px 9px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 1px 8px 6px rgb(50, 50, 50);
 }
 
 .drop-shadow-purple {
