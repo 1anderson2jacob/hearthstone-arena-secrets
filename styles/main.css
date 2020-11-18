@@ -1,5 +1,5 @@
 body {
-  background-color: #140f0a;
+  background-color: #1f170f;
   min-height: 1000px;
 }
 
@@ -15,6 +15,7 @@ body {
   width: 100%;
 
 }
+
 header {
   display: flex;
   align-items: center;
@@ -28,7 +29,6 @@ header {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 
-  font-family: belwe;
   text-align: center;
   padding-bottom: 10px;
   margin-bottom: 30px;
@@ -38,6 +38,7 @@ header {
 }
 
 header span{
+  font-family: belwe;
   font-weight: 800;
   font-size: 68px;
   color: rgb(247,234,197);
@@ -127,9 +128,10 @@ section {
 #card-container {
   border: 1px solid rgb(245,228,179);
   border-radius: 4px;
+  background-color: #140f0a;
 
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   padding-top: 20px;
   padding-bottom: 30px;
   width: 650px;
@@ -184,7 +186,6 @@ li {
 @media only screen and (max-device-width: 736px) {
   .head {
     height: 150px;
-    /* margin-bottom: 50px; */
   }
 
   .banner {
@@ -197,7 +198,7 @@ li {
     padding-top: 15px;
     background: url(../assets/title-bar-mobile.jpg) no-repeat;
 
-    margin-bottom: 47px;
+    margin-bottom: 65px;
   }
 
   header span {
@@ -217,7 +218,7 @@ li {
   }
 
   section {
-    margin-top: 130px;
+    margin-top: 160px;
   }
 
   #card-container {
