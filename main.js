@@ -45,7 +45,6 @@ function bindCards() {
       displayModal(e);
     }
   })
-
 }
 
 function displayModal(e) {
@@ -81,7 +80,6 @@ function displayCards(e) {
     ul.appendChild(li);
     li.appendChild(img);
   }
-
 }
 
 function removeCards() {
